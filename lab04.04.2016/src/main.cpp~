@@ -1,0 +1,105 @@
+#include <iostream>
+/*
+#include "IStack.hh"
+#include "Stos.hh"
+*//*
+#include "IQueue.hh"
+#include "Kolejka.hh"*/
+#include "IList.hh"
+#include "SLista.hh"
+#include "SNode.hh"
+#include "QSort.hh"
+#include "Tab.hh"
+#include "QSortTest.hh"
+using namespace std;
+
+int main(){
+QSortTest obiekt;
+obiekt.Przygotuj();
+obiekt.Testuj();
+
+}
+  /* int rozmiar=10;
+  double *tablica;
+  tablica=new double[rozmiar];
+  QSort obiekt;
+  //  int rozmiar2=rozmiar;
+  obiekt.Qsortuj(&tablica,rozmiar);
+  delete []tablica;
+  }*/
+
+  /*
+  SLista <int> listonic;
+  listonic.AddFront(100000);
+  listonic.AddFront(1000);
+  listonic.AddFront(100);
+  listonic.AddFront(10);
+  cout<<"Element z przodu: "<< listonic.Front() <<endl;
+      listonic.RemoveFront();
+  cout<<"Element z przodu: "<< listonic.Front() <<endl;
+   while(!listonic.IsEmpty()){
+      listonic.RemoveFront();
+      }*/
+
+
+
+
+
+   //  cout<<"Element z przodu: "<< listonic.Front() <<endl;
+
+  /* SLista <int> listonic;
+
+  SNode<int>* znajdek = listonic.Find(3);
+
+  if(znajdek==NULL)
+    cout << "Nie znaleziono!" << endl;
+  else
+    cout << "Znaleziono" << endl;
+
+  listonic.AddFront(3);
+  listonic.AddFront(4);
+  listonic.AddFront(5);
+  listonic.AddFront(6);
+  listonic.AddFront(7);
+  try{
+  cout<<"Element z przodu: "<< listonic.Front() <<endl;
+  }
+  catch(const char * napis) {
+    cerr<<napis<<endl;
+  }
+  znajdek = listonic.Find(5);
+
+  if(znajdek==NULL)
+    cout << "Nie znaleziono!" << endl;
+  else
+    cout << "Znaleziono" << endl;
+
+  listonic.AddFront(2);
+  try{
+  cout<<"Element z przodu: "<< listonic.Front() <<endl;
+
+  cout<< "Usunieto: " << listonic.Front() << endl; //usunięcie 99
+  listonic.RemoveFront();
+    cout<< "Usunieto: " << listonic.Front() << endl; //usunięcie 43
+      listonic.RemoveFront();
+  }
+  catch(const char * napis) {
+    cerr<<napis<<endl;
+  }
+  cout<<"Element z przodu: "<<listonic.Front()<<endl;
+  try{
+  cout<< "Usunieto: " << listonic.Front()  << endl; //usunięcie 23
+    listonic.RemoveFront();
+  cout<< "Usunieto: " << listonic.Front() << endl; //usunięcie 12
+    listonic.RemoveFront();
+  cout<< "Usunieto: " << listonic.Front() << endl;
+    listonic.RemoveFront();
+  cout<< "Usunieto: " << listonic.Front() << endl;
+    listonic.RemoveFront();
+  }
+  catch(const char * napis) {
+    cerr<<napis<<endl;
+  }
+  return 0;
+  */
+
